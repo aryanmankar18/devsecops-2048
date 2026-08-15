@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "devsecops-2048-reyaz-4pm" # Replace with your actual S3 bucket name
+    bucket = "arya-devsecops-2048-bucket" #bucket_name_to_be_changed
     key    = "EKS/terraform.tfstate"
     region = "ap-south-1"
   }
